@@ -1,0 +1,22 @@
+- name: aes_cbr
+  type: table
+  desc: secure a string using AES
+
+  members:
+    - name: encrypt_newgrounds
+      desc: encode a string save with the IV at the start and base64code
+      type: function
+      parameters:
+        - name: data
+          type: string
+          desc: data to encode.
+        - name: key
+          type: string
+          desc: in base64 format
+      returns:
+        - name: data
+          type: string
+          desc: The processed encrypted binary string with iv and checksum.
+
+  
+    

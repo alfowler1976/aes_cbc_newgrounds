@@ -22,3 +22,6 @@ scale_mode = stretch
 [project]
 title = aes_ctr_newgrounds
 
+[library]
+include_dirs = aes_cbc
+
